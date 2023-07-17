@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    background-image: url(/Desktop\ -\ 7.png);
+background-size: contain;
+background-size: cover;
+background-position: top right;
+}
+.container{
+  
+    min-height: 100vh;
+    color: white;
+
+
+}
+.flex{
+    display: flex;
+
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+   cursor: pointer;
+    
+
+}
+.fer{
+max-width: 64px;
+}
+.icon-menu{
+    display: flex;
+justify-content: flex-end;
+cursor: pointer;
+}
+
+.nav{
+
+    position: fixed;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    width: 55vw;
+    background-color: #030E21;
+    padding: 1.25rem;
+    opacity: 1;
+    z-index: 99999999999;
+  margin: 0;
+}
+.menu{
+    display: none;
+}
+.x{
+  
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+}
+.profile{
+   width: 250px;
+}
+.profilee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-work{
+display: grid;
+}
+.project{
+    max-width: 250px;
+}
+.icon{
+    max-width: 65px
+    
+}
+.wall{
+    display: grid;
+    justify-content: center;
+}
+footer{
+   margin-top: 100px;
+    color: white;
+}
+
+.contact{
+    color: #F8E7A1;
+}
+.contactme{
+    margin-top: 200px;
+}
+.computer{
+    max-width: 250px;
+}
+hr{
+    background-color: #F8E7A1;
+    width: 295px;
+}
